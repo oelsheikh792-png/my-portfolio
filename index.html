@@ -35,7 +35,12 @@
     <main class="container">
         <section class="profile-card">
             <div class="profile-header">
-                <p class="bio">Digital Creator | Product Designer | Tech Enthusiast</p>
+                <div class="profile-img-container">
+                    <img src="profile.jpg" alt="Eng. Omar Elsheikh" class="profile-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Omar+Elsheikh&background=ff3e3e&color=fff&size=200'">
+                </div>
+                <p class="bio">I build scalable software systems and design intuitive digital experiences. Passionate
+                    about tech that empowers people.</p>
             </div>
 
             <div class="social-links">
@@ -69,6 +74,28 @@
                     <span>GitHub</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
+            </div>
+
+            <div class="tech-stack">
+                <h3 class="section-title">Tech Stack</h3>
+                <div class="tech-grid">
+                    <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                    <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                    <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                    <div class="tech-item"><i class="fas fa-database"></i><span>SQL</span></div>
+                    <div class="tech-item"><i class="fab fa-aws"></i><span>Cloud</span></div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h3 class="section-title">Get In Touch</h3>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" rows="4" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
             </div>
 
             <footer class="footer">
